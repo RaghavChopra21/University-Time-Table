@@ -1,0 +1,42 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    padding: 20px;
+    background: linear-gradient(to right, #e0f7fa, #ffffff);
+}
+
+h1,h2,h3,h4 {
+    text-align: center;
+    margin: 5px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: white;
+    /* background-color: #fafafa; */
+}
+
+th,td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+}
+
+.Lunch {
+    background-color: #ffecb3;
+}
+
+.highlight {
+    background-color: yellow;
+}
+
+.abbreviations {
+    text-align: left;
+    padding-left: 20px;
+}
+
+.table-wrapper {
+    overflow-x: auto;
+    max-width: 100%;
+}
